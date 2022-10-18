@@ -1,0 +1,558 @@
+SampleID	day-relative-to-fmt	PatientID	Timepoint	Consistency	Accession	BioProject	DayRelativeToNearestHCT	AccessionShotgun	patient-sample-counts	TimepointOfTransplant	HCTSource	Disease	wbcPatientId	autoFmtPatientId	nejmPatientId	autoFmtGroup	categorical-time-relative-to-hct	week-relative-to-hct	RandomizationArm	RandomizationDayRelativeToNearestHCT	FMTDayRelativeToNearestHCT	DonorSampleID	LastSampleBeforeFMT	FirstSampleAfterFMT	week-relative-to-fmt	categorical-time-relative-to-fmt
+#q2:types	numeric	categorical	numeric	categorical	categorical	categorical	numeric	categorical	numeric	numeric	categorical	categorical	categorical	categorical	numeric	categorical	categorical	numeric	categorical	numeric	numeric	categorical	categorical	categorical	numeric	categorical
+992A	-14	FMT.0001	17	semi-formed	SRR11420351	PRJNA545312	12		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	1	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	-3	pre
+992B	-12	FMT.0001	19	semi-formed	SRR11420350	PRJNA545312	14		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	1	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	-2	pre
+992C	-7	FMT.0001	24	semi-formed	SRR11420349	PRJNA545312	19		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	2	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	-2	pre
+FMT.0001A	-31	FMT.0001	0	liquid	SRR11420339	PRJNA545312	-5	SRR13221818	15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	pre	-1	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	-3	pre
+FMT.0001B	-28	FMT.0001	3	semi-formed	SRR11420338	PRJNA545312	-2		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	pre	-1	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	-3	pre
+FMT.0001C	-5	FMT.0001	26	liquid	SRR11420336	PRJNA545312	21		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	2	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	-1	pre
+FMT.0001D	4	FMT.0001	35	semi-formed	SRR10668377	PRJNA545312	30		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	4	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	0	peri
+FMT.0001E	32	FMT.0001	63	formed	SRR11117021	PRJNA607574	58	SRR13221817	15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	4	post
+FMT.0001F	169	FMT.0001	200	formed	SRR11117020	PRJNA607574	195		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	6	post
+FMT.0001G	190	FMT.0001	221	formed	SRR11117019	PRJNA607574	216		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	6	post
+FMT.0001H	220	FMT.0001	251	semi-formed	SRR11117018	PRJNA607574	246		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	6	post
+FMT.0001I	240	FMT.0001	271	semi-formed	SRR11117017	PRJNA607574	266		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	6	post
+FMT.0001J	311	FMT.0001	342	semi-formed	SRR11117016	PRJNA607574	337		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	6	post
+FMT.0001K	339	FMT.0001	370	formed	SRR11117015	PRJNA607574	365		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	6	post
+FMT.0001L	353	FMT.0001	384	formed	SRR11117014	PRJNA607574	379		15	5	BM_unmodified	Leukemia	f59248b285b757a9899418	T1	1	treatment	post	6	Treatment	26	26	FMT.0001A	FMT.0001C	FMT.0001D	6	post
+FMT.0009A	-41	FMT.0009	0	formed	SRR11419675	PRJNA545312	-6	SRR14092318	19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	pre	-1	Control	35					-3	pre
+FMT.0009AA	112	FMT.0009	153	formed	SRR11419674	PRJNA545312	147	SRR13221824	19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	6	Control	35					6	post
+FMT.0009BB	169	FMT.0009	210	formed	SRR11419672	PRJNA545312	204		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	6	Control	35					6	post
+FMT.0009C	-35	FMT.0009	6	semi-formed	SRR11419671	PRJNA545312	0		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	peri	-1	Control	35					-3	pre
+FMT.0009CC	203	FMT.0009	244	formed	SRR11419669	PRJNA545312	238		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	6	Control	35					6	post
+FMT.0009D	-34	FMT.0009	7	formed	SRR11419668	PRJNA545312	1		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	peri	0	Control	35					-3	pre
+FMT.0009DD	267	FMT.0009	308	formed	SRR11419667	PRJNA545312	302		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	6	Control	35					6	post
+FMT.0009E	-33	FMT.0009	8	formed	SRR11419666	PRJNA545312	2		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	peri	0	Control	35					-3	pre
+FMT.0009F	-31	FMT.0009	10	liquid	SRR11419665	PRJNA545312	4		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	peri	0	Control	35					-3	pre
+FMT.0009H	-29	FMT.0009	12	semi-formed	SRR11419663	PRJNA545312	6		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	0	Control	35					-3	pre
+FMT.0009I	-28	FMT.0009	13	semi-formed	SRR11419634	PRJNA545312	7		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	0	Control	35					-3	pre
+FMT.0009L	-25	FMT.0009	16	semi-formed	SRR11419632	PRJNA545312	10		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	1	Control	35					-3	pre
+FMT.0009P	-19	FMT.0009	22	semi-formed	SRR11419628	PRJNA545312	16		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	2	Control	35					-3	pre
+FMT.0009R	-17	FMT.0009	24	semi-formed	SRR11419626	PRJNA545312	18		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	2	Control	35					-3	pre
+FMT.0009U	-14	FMT.0009	27	liquid	SRR11419623	PRJNA545312	21		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	2	Control	35					-3	pre
+FMT.0009V	-13	FMT.0009	28	semi-formed	SRR11419622	PRJNA545312	22		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	3	Control	35					-2	pre
+FMT.0009W	-2	FMT.0009	39	formed	SRR11419621	PRJNA545312	33		19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	4	Control	35					-1	pre
+FMT.0009X	2	FMT.0009	43	semi-formed	SRR11419619	PRJNA545312	37	SRR14092317	19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	5	Control	35					0	peri
+FMT.0009Y	5	FMT.0009	46	semi-formed	SRR11419618	PRJNA545312	40	SRR13221823	19	6	PBSC_unmodified	Myelodysplastic Syndromes	fbd892ee98b7d398f1506e	C1	1	control	post	5	Control	35					0	peri
+FMT.0010A	-45	FMT.0010	0	semi-formed	SRR11419616	PRJNA545312	-6	SRR14092316	13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	pre	-1	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-3	pre
+FMT.0010B	-36	FMT.0010	9	semi-formed	SRR11419615	PRJNA545312	3		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	peri	0	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-3	pre
+FMT.0010C	-35	FMT.0010	10	liquid	SRR11419614	PRJNA545312	4		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	peri	0	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-3	pre
+FMT.0010E	-24	FMT.0010	21	liquid	SRR11419612	PRJNA545312	15		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	2	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-3	pre
+FMT.0010F	-22	FMT.0010	23	semi-formed	SRR11419611	PRJNA545312	17		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	2	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-3	pre
+FMT.0010M	-14	FMT.0010	31	liquid	SRR11419603	PRJNA545312	25		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	3	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-3	pre
+FMT.0010O	-12	FMT.0010	33	liquid	SRR11419601	PRJNA545312	27		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	3	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-2	pre
+FMT.0010Q	-6	FMT.0010	39	semi-formed	SRR11419599	PRJNA545312	33		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	4	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	-1	pre
+FMT.0010S	1	FMT.0010	46	semi-formed	SRR11117012	PRJNA607574	40	SRR13221829	13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	5	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	0	peri
+FMT.0010T	46	FMT.0010	91	semi-formed	SRR11117011	PRJNA607574	85		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	6	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	6	post
+FMT.0010U	77	FMT.0010	122	semi-formed	SRR11117010	PRJNA607574	116		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	6	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	6	post
+FMT.0010V	190	FMT.0010	235	liquid	SRR11117009	PRJNA607574	229		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	6	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	6	post
+FMT.0010W	253	FMT.0010	298	semi-formed	SRR11117008	PRJNA607574	292		13	6	cord	Leukemia	688524ef9180bc574f9a61	T2	1	treatment	post	6	Treatment	39	39	FMT.0010A	FMT.0010Q	FMT.0010S	6	post
+FMT.0020A	-43	FMT.0020	0	semi-formed	SRR11419412	PRJNA545312	-6	SRR14092314	11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	pre	-1	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	-3	pre
+FMT.0020B	-39	FMT.0020	4	formed	SRR11419411	PRJNA545312	-2		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	pre	-1	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	-3	pre
+FMT.0020C	-32	FMT.0020	11	formed	SRR11419382	PRJNA545312	5		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	peri	0	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	-3	pre
+FMT.0020D	-25	FMT.0020	18	liquid	SRR11419381	PRJNA545312	12		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	1	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	-3	pre
+FMT.0020E	-18	FMT.0020	25	formed	SRR11419380	PRJNA545312	19		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	2	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	-3	pre
+FMT.0020G	3	FMT.0020	46	semi-formed	SRR11117007	PRJNA607574	40	SRR13221827	11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	5	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	0	peri
+FMT.0020H	24	FMT.0020	67	semi-formed	SRR11117006	PRJNA607574	61		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	6	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	3	post
+FMT.0020J	81	FMT.0020	124	formed	SRR11117005	PRJNA607574	118		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	6	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	6	post
+FMT.0020K	109	FMT.0020	152	formed	SRR11117004	PRJNA607574	146		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	6	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	6	post
+FMT.0020L	146	FMT.0020	189	formed	SRR11117003	PRJNA607574	183		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	6	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	6	post
+FMT.0020M	180	FMT.0020	223	formed	SRR11117001	PRJNA607574	217		11	6	cord	Leukemia	12850a83b2e9bc0105a96a	T3	1	treatment	post	6	Treatment	37	37	FMT.0020A	FMT.0020E	FMT.0020G	6	post
+FMT.0028A	-34	FMT.0028	0	semi-formed	SRR11418981	PRJNA545312	-5		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	pre	-1	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-3	pre
+FMT.0028B	-30	FMT.0028	4	formed	SRR11418980	PRJNA545312	-1		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	pre	-1	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-3	pre
+FMT.0028C	-24	FMT.0028	10	liquid	SRR11418979	PRJNA545312	5		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	peri	0	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-3	pre
+FMT.0028E	-19	FMT.0028	15	liquid	SRR11418977	PRJNA545312	10		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	1	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-3	pre
+FMT.0028F	-10	FMT.0028	24	liquid	SRR11418976	PRJNA545312	19		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	2	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-2	pre
+FMT.0028G	-7	FMT.0028	27	liquid	SRR11418975	PRJNA545312	22		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	3	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-2	pre
+FMT.0028H	-4	FMT.0028	30	semi-formed	SRR11418973	PRJNA545312	25		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	3	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-1	pre
+FMT.0028I	-3	FMT.0028	31	semi-formed	SRR11418972	PRJNA545312	26		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	3	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-1	pre
+FMT.0028K	0	FMT.0028	34	liquid	SRR11117000	PRJNA607574	29		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	4	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	-1	peri
+FMT.0028L	4	FMT.0028	38	semi-formed	SRR11116999	PRJNA607574	33		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	4	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	0	peri
+FMT.0028M	7	FMT.0028	41	formed	SRR11116998	PRJNA607574	36		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	5	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	0	post
+FMT.0028N	14	FMT.0028	48	semi-formed	SRR11116997	PRJNA607574	43		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	6	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	1	post
+FMT.0028O	28	FMT.0028	62	semi-formed	SRR11116996	PRJNA607574	57		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	6	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	3	post
+FMT.0028P	108	FMT.0028	142	formed	SRR11116995	PRJNA607574	137		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	6	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	6	post
+FMT.0028Q	297	FMT.0028	331	formed	SRR11116994	PRJNA607574	326		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	6	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	6	post
+FMT.0028R	332	FMT.0028	366	formed	SRR11116993	PRJNA607574	361		16	5	PBSC_unmodified	Leukemia	adc54714b4df020bdcfaf3	T4	1	treatment	post	6	Treatment	28	29	FMT.0028A	FMT.0028I	FMT.0028K	6	post
+FMT.0034A	-56	FMT.0034	0	semi-formed	SRR11419521	PRJNA545312	-28	SRR13697226	21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	pre	-3	Control	28					-3	pre
+FMT.0034B	-36	FMT.0034	20	formed	SRR11419520	PRJNA545312	-8		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	pre	-2	Control	28					-3	pre
+FMT.0034C	-27	FMT.0034	29	liquid	SRR11419519	PRJNA545312	1		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	peri	0	Control	28					-3	pre
+FMT.0034D	-24	FMT.0034	32	liquid	SRR11419518	PRJNA545312	4		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	peri	0	Control	28					-3	pre
+FMT.0034E	-17	FMT.0034	39	liquid	SRR11419517	PRJNA545312	11		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	1	Control	28					-3	pre
+FMT.0034F	-15	FMT.0034	41	formed	SRR11419516	PRJNA545312	13		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	1	Control	28					-3	pre
+FMT.0034G	-10	FMT.0034	46	formed	SRR11419514	PRJNA545312	18		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	2	Control	28					-2	pre
+FMT.0034I	0	FMT.0034	56	semi-formed	SRR11419513	PRJNA545312	28	SRR13221831	21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	3	Control	28					-1	peri
+FMT.0034J	12	FMT.0034	68	liquid	SRR11419512	PRJNA545312	40	SRR14092184	21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	5	Control	28					1	post
+FMT.0034K	13	FMT.0034	69	liquid	SRR11419511	PRJNA545312	41		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	5	Control	28					1	post
+FMT.0034L	18	FMT.0034	74	liquid	SRR11419510	PRJNA545312	46		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					2	post
+FMT.0034M	25	FMT.0034	81	liquid	SRR11419509	PRJNA545312	53		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					3	post
+FMT.0034N	27	FMT.0034	83	liquid	SRR11419508	PRJNA545312	55		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					3	post
+FMT.0034O	35	FMT.0034	91	liquid	SRR11419507	PRJNA545312	63		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					4	post
+FMT.0034P	40	FMT.0034	96	liquid	SRR11419506	PRJNA545312	68		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					5	post
+FMT.0034Q	48	FMT.0034	104	liquid	SRR11419505	PRJNA545312	76		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					6	post
+FMT.0034R	53	FMT.0034	109	liquid	SRR11419503	PRJNA545312	81		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					6	post
+FMT.0034S	63	FMT.0034	119	liquid	SRR11419502	PRJNA545312	91		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					6	post
+FMT.0034T	67	FMT.0034	123	liquid	SRR11419501	PRJNA545312	95		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					6	post
+FMT.0034U	75	FMT.0034	131	liquid	SRR11419500	PRJNA545312	103		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					6	post
+FMT.0034V	82	FMT.0034	138	liquid	SRR11419499	PRJNA545312	110		21	28	TCD	Multiple Myeloma	5f951107df9536a898501c	C4	1	control	post	6	Control	28					6	post
+FMT.0035A	-70	FMT.0035	0	formed	SRR11419498	PRJNA545312	-21	SRR13221826	21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	pre	-3	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-3	pre
+FMT.0035B	-56	FMT.0035	14	formed	SRR11419497	PRJNA545312	-7		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	pre	-2	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-3	pre
+FMT.0035C	-52	FMT.0035	18	formed	SRR11419496	PRJNA545312	-3		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	pre	-1	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-3	pre
+FMT.0035D	-46	FMT.0035	24	liquid	SRR11419495	PRJNA545312	3		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	peri	0	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-3	pre
+FMT.0035E	-36	FMT.0035	34	liquid	SRR11419494	PRJNA545312	13		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	1	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-3	pre
+FMT.0035F	-28	FMT.0035	42	semi-formed	SRR11419492	PRJNA545312	21		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	2	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-3	pre
+FMT.0035G	-19	FMT.0035	51	semi-formed	SRR11419491	PRJNA545312	30		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	4	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-3	pre
+FMT.0035H	-10	FMT.0035	60	formed	SRR11419490	PRJNA545312	39		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	5	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-2	pre
+FMT.0035J	0	FMT.0035	70	liquid	SRR11116992	PRJNA607574	49		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	-1	peri
+FMT.0035K	4	FMT.0035	74	formed	SRR11116989	PRJNA607574	53	SRR13221825	21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	0	peri
+FMT.0035L	20	FMT.0035	90	semi-formed	SRR11116988	PRJNA607574	69		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	2	post
+FMT.0035M	42	FMT.0035	112	semi-formed	SRR11116987	PRJNA607574	91		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	5	post
+FMT.0035N	91	FMT.0035	161	formed	SRR11116986	PRJNA607574	140		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035O	92	FMT.0035	162		SRR11116985	PRJNA607574	141		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035P	94	FMT.0035	164		SRR11116984	PRJNA607574	143		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035Q	95	FMT.0035	165		SRR11116983	PRJNA607574	144		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035R	119	FMT.0035	189	formed	SRR11116982	PRJNA607574	168		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035S	121	FMT.0035	191	formed	SRR11116981	PRJNA607574	170		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035T	120	FMT.0035	190	semi-formed	SRR11116980	PRJNA607574	169		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035U	122	FMT.0035	192	semi-formed	SRR11116620	PRJNA607574	171		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0035V	125	FMT.0035	195	semi-formed	SRR11116619	PRJNA607574	174		21	21	cord	Leukemia	d98075bf7fe4523e409606	T5	1	treatment	post	6	Treatment	49	49	FMT.0035A	FMT.0035H	FMT.0035J	6	post
+FMT.0039A	-40	FMT.0039	0	formed	SRR11419489	PRJNA545312	-6	SRR14092183	16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	pre	-1	Control	34					-3	pre
+FMT.0039B	-20	FMT.0039	20	liquid	SRR11419488	PRJNA545312	14		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	1	Control	34					-3	pre
+FMT.0039C	-18	FMT.0039	22	liquid	SRR11419487	PRJNA545312	16		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	2	Control	34					-3	pre
+FMT.0039D	-13	FMT.0039	27	semi-formed	SRR11419486	PRJNA545312	21		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	2	Control	34					-2	pre
+FMT.0039E	4	FMT.0039	44	formed	SRR11419485	PRJNA545312	38	SRR14092182	16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	5	Control	34					0	peri
+FMT.0039F	18	FMT.0039	58	formed	SRR11419484	PRJNA545312	52	SRR13221821	16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					2	post
+FMT.0039I	133	FMT.0039	173	liquid	SRR11419481	PRJNA545312	167		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039J	135	FMT.0039	175	semi-formed	SRR11419480	PRJNA545312	169		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039K	134	FMT.0039	174	liquid	SRR11419479	PRJNA545312	168		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039L	136	FMT.0039	176	semi-formed	SRR11419478	PRJNA545312	170		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039M	161	FMT.0039	201	formed	SRR11419477	PRJNA545312	195		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039N	162	FMT.0039	202	semi-formed	SRR11419476	PRJNA545312	196		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039O	163	FMT.0039	203	formed	SRR11419475	PRJNA545312	197		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039P	176	FMT.0039	216	semi-formed	SRR11419474	PRJNA545312	210		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039Q	177	FMT.0039	217	formed	SRR11419473	PRJNA545312	211		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0039R	178	FMT.0039	218	liquid	SRR11419472	PRJNA545312	212		16	6	cord	Leukemia	f1c248cd1d9bbac6711114	C3	1	control	post	6	Control	34					6	post
+FMT.0050A	-44	FMT.0050	0	formed	SRR11420285	PRJNA545312	-10	SRR13221820	17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	pre	-2	Control	34					-3	pre
+FMT.0050B	-40	FMT.0050	4	semi-formed	SRR11420284	PRJNA545312	-6		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	pre	-1	Control	34					-3	pre
+FMT.0050C	-38	FMT.0050	6	semi-formed	SRR11420283	PRJNA545312	-4		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	pre	-1	Control	34					-3	pre
+FMT.0050D	-28	FMT.0050	16	liquid	SRR11420282	PRJNA545312	6		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	0	Control	34					-3	pre
+FMT.0050E	-24	FMT.0050	20	liquid	SRR11420281	PRJNA545312	10		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	1	Control	34					-3	pre
+FMT.0050F	-23	FMT.0050	21	liquid	SRR11420280	PRJNA545312	11		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	1	Control	34					-3	pre
+FMT.0050G	-17	FMT.0050	27	liquid	SRR11420279	PRJNA545312	17		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	2	Control	34					-3	pre
+FMT.0050H	-16	FMT.0050	28	liquid	SRR11420277	PRJNA545312	18		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	2	Control	34					-3	pre
+FMT.0050I	-15	FMT.0050	29	liquid	SRR11420276	PRJNA545312	19		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	2	Control	34					-3	pre
+FMT.0050K	4	FMT.0050	48	formed	SRR11420275	PRJNA545312	38		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	5	Control	34					0	peri
+FMT.0050L	42	FMT.0050	86	formed	SRR11420274	PRJNA545312	76	SRR13221819	17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	6	Control	34					5	post
+FMT.0050M	64	FMT.0050	108	formed	SRR11420273	PRJNA545312	98		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	6	Control	34					6	post
+FMT.0050N	95	FMT.0050	139	semi-formed	SRR11420272	PRJNA545312	129		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	6	Control	34					6	post
+FMT.0050O	138	FMT.0050	182	formed	SRR11420271	PRJNA545312	172		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	6	Control	34					6	post
+FMT.0050P	154	FMT.0050	198	formed	SRR11420270	PRJNA545312	188		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	6	Control	34					6	post
+FMT.0050Q	194	FMT.0050	238	formed	SRR11420269	PRJNA545312	228		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	6	Control	34					6	post
+FMT.0050R	327	FMT.0050	371	formed	SRR11420268	PRJNA545312	361		17	10	TCD	Leukemia	17391b8feccb550fe3f7dd	C5	1	control	post	6	Control	34					6	post
+FMT.0061A	-53	FMT.0061	0	formed	SRR11419932	PRJNA545312	-17	SRR14092181	26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-3	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061AA	3	FMT.0061	56	formed	SRR11116607	PRJNA607574	39		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	5	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	0	peri
+FMT.0061B	-45	FMT.0061	8	formed	SRR11419931	PRJNA545312	-9		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-2	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061BB	26	FMT.0061	79	formed	SRR11116606	PRJNA607574	62		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	6	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	3	post
+FMT.0061C	-44	FMT.0061	9	formed	SRR11419930	PRJNA545312	-8		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-2	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061CC	58	FMT.0061	111	formed	SRR11116605	PRJNA607574	94		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	6	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	6	post
+FMT.0061D	-42	FMT.0061	11	formed	SRR11419929	PRJNA545312	-6		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061DD	94	FMT.0061	147	formed	SRR11116604	PRJNA607574	130		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	6	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	6	post
+FMT.0061E	-41	FMT.0061	12	formed	SRR11419927	PRJNA545312	-5		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061EE	143	FMT.0061	196	formed	SRR11116603	PRJNA607574	179		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	6	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	6	post
+FMT.0061F	-40	FMT.0061	13	formed	SRR11419926	PRJNA545312	-4		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061FF	175	FMT.0061	228	formed	SRR11116602	PRJNA607574	211		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	6	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	6	post
+FMT.0061G	-39	FMT.0061	14	formed	SRR11419925	PRJNA545312	-3		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061GG	235	FMT.0061	288	formed	SRR11116601	PRJNA607574	271		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	6	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	6	post
+FMT.0061H	-38	FMT.0061	15	liquid	SRR11419924	PRJNA545312	-2		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061HH	361	FMT.0061	414	semi-formed	SRR11116600	PRJNA607574	397		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	6	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	6	post
+FMT.0061I	-37	FMT.0061	16	liquid	SRR11419923	PRJNA545312	-1		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	pre	-1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061J	-36	FMT.0061	17	liquid	SRR11419922	PRJNA545312	0		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	peri	-1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061K	-35	FMT.0061	18	semi-formed	SRR11420267	PRJNA545312	1		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	peri	0	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061L	-34	FMT.0061	19	semi-formed	SRR11420266	PRJNA545312	2		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	peri	0	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061R	-28	FMT.0061	25	liquid	SRR11420265	PRJNA545312	8		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061S	-27	FMT.0061	26	semi-formed	SRR11420264	PRJNA545312	9		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061U	-26	FMT.0061	27	liquid	SRR11420261	PRJNA545312	10		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061V	-25	FMT.0061	28	liquid	SRR11420260	PRJNA545312	11		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061X	-23	FMT.0061	30	semi-formed	SRR11420259	PRJNA545312	13		26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	1	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-3	pre
+FMT.0061Z	0	FMT.0061	53	liquid	SRR11116598	PRJNA607574	36	SRR14092180	26	17	TCD	Myelodysplastic Syndromes	c989fa0e051492b49ac7ff	T7	1	treatment	post	5	Treatment	33	36	FMT.0061A	FMT.0061X	FMT.0061Z	-1	peri
+FMT.0063A	-55	FMT.0063	0	formed	SRR11420233	PRJNA545312	-6	SRR14092179	46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	pre	-1	Control	49					-3	pre
+FMT.0063AAA	19	FMT.0063	74	formed	SRR11420232	PRJNA545312	68		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					2	post
+FMT.0063B	-53	FMT.0063	2	formed	SRR11420231	PRJNA545312	-4		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	pre	-1	Control	49					-3	pre
+FMT.0063BBB	20	FMT.0063	75	formed	SRR11420229	PRJNA545312	69		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					2	post
+FMT.0063C	-52	FMT.0063	3	semi-formed	SRR11420228	PRJNA545312	-3		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	pre	-1	Control	49					-3	pre
+FMT.0063CC	-21	FMT.0063	34	liquid	SRR11420227	PRJNA545312	28		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	3	Control	49					-3	pre
+FMT.0063CCC	21	FMT.0063	76	formed	SRR11420226	PRJNA545312	70		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					2	post
+FMT.0063D	-51	FMT.0063	4	liquid	SRR11420225	PRJNA545312	-2		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	pre	-1	Control	49					-3	pre
+FMT.0063E	-50	FMT.0063	5	liquid	SRR11420224	PRJNA545312	-1		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	pre	-1	Control	49					-3	pre
+FMT.0063EE	-19	FMT.0063	36	semi-formed	SRR11420223	PRJNA545312	30		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	4	Control	49					-3	pre
+FMT.0063EEE	23	FMT.0063	78	semi-formed	SRR11420222	PRJNA545312	72		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					3	post
+FMT.0063F	-49	FMT.0063	6	liquid	SRR11420221	PRJNA545312	0		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	peri	-1	Control	49					-3	pre
+FMT.0063FFF	28	FMT.0063	83	formed	SRR11420220	PRJNA545312	77		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					3	post
+FMT.0063G	-48	FMT.0063	7	liquid	SRR11420217	PRJNA545312	1		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	peri	0	Control	49					-3	pre
+FMT.0063GG	-18	FMT.0063	37	liquid	SRR11420216	PRJNA545312	31		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	4	Control	49					-3	pre
+FMT.0063GGG	30	FMT.0063	85	formed	SRR11420215	PRJNA545312	79		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					4	post
+FMT.0063HH	-15	FMT.0063	40	liquid	SRR11420213	PRJNA545312	34		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	4	Control	49					-3	pre
+FMT.0063HHH	49	FMT.0063	104	semi-formed	SRR11420212	PRJNA545312	98		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					6	post
+FMT.0063I	-47	FMT.0063	8	semi-formed	SRR11420183	PRJNA545312	2		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	peri	0	Control	49					-3	pre
+FMT.0063II	-14	FMT.0063	41	liquid	SRR11418568	PRJNA545312	35		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	4	Control	49					-3	pre
+FMT.0063III	93	FMT.0063	148	semi-formed	SRR11418567	PRJNA545312	142		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					6	post
+FMT.0063JJ	-9	FMT.0063	46	semi-formed	SRR11418565	PRJNA545312	40		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	5	Control	49					-2	pre
+FMT.0063JJJ	142	FMT.0063	197	semi-formed	SRR11418564	PRJNA545312	191		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					6	post
+FMT.0063K	-46	FMT.0063	9	liquid	SRR11418563	PRJNA545312	3		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	peri	0	Control	49					-3	pre
+FMT.0063KK	-4	FMT.0063	51	formed	SRR11418562	PRJNA545312	45		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					-1	pre
+FMT.0063KKK	247	FMT.0063	302	formed	SRR11418561	PRJNA545312	296		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					6	post
+FMT.0063L	-45	FMT.0063	10	liquid	SRR11418559	PRJNA545312	4		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	peri	0	Control	49					-3	pre
+FMT.0063LL	-3	FMT.0063	52	semi-formed	SRR11418558	PRJNA545312	46		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					-1	pre
+FMT.0063LLL	288	FMT.0063	343	liquid	SRR11418557	PRJNA545312	337		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					6	post
+FMT.0063M	-44	FMT.0063	11	semi-formed	SRR11418556	PRJNA545312	5		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	peri	0	Control	49					-3	pre
+FMT.0063MM	-1	FMT.0063	54	semi-formed	SRR11418443	PRJNA545312	48		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					-1	pre
+FMT.0063MMM	338	FMT.0063	393	semi-formed	SRR11418442	PRJNA545312	387		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					6	post
+FMT.0063N	-43	FMT.0063	12	liquid	SRR11418441	PRJNA545312	6		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	0	Control	49					-3	pre
+FMT.0063NN	0	FMT.0063	55	semi-formed	SRR11418440	PRJNA545312	49		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					-1	peri
+FMT.0063OO	2	FMT.0063	57	semi-formed	SRR11418439	PRJNA545312	51	SRR13697225	46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					0	peri
+FMT.0063P	-36	FMT.0063	19	liquid	SRR11418438	PRJNA545312	13		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	1	Control	49					-3	pre
+FMT.0063PP	4	FMT.0063	59	formed	SRR11418436	PRJNA545312	53		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					0	peri
+FMT.0063QQ	6	FMT.0063	61	formed	SRR11418435	PRJNA545312	55		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					0	post
+FMT.0063SS	8	FMT.0063	63	formed	SRR11418433	PRJNA545312	57		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					1	post
+FMT.0063TT	9	FMT.0063	64	formed	SRR11418432	PRJNA545312	58		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					1	post
+FMT.0063UU	10	FMT.0063	65	formed	SRR11418431	PRJNA545312	59		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					1	post
+FMT.0063VV	11	FMT.0063	66	formed	SRR11418430	PRJNA545312	60		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					1	post
+FMT.0063WW	12	FMT.0063	67		SRR11418429	PRJNA545312	61		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					1	post
+FMT.0063XX	25	FMT.0063	80	formed	SRR11418428	PRJNA545312	74		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					3	post
+FMT.0063YY	26	FMT.0063	81	formed	SRR11418426	PRJNA545312	75		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					3	post
+FMT.0063ZZ	18	FMT.0063	73	formed	SRR11420182	PRJNA545312	67		46	6	PBSC_unmodified	Leukemia	2314663ceda58b12364a02	C6	1	control	post	6	Control	49					2	post
+FMT.0064A	-49	FMT.0064	0	formed	SRR11420181	PRJNA545312	-10	SRR13697224	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	pre	-2	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064AA	63	FMT.0064	112	semi-formed	SRR11116597	PRJNA607574	102		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	6	post
+FMT.0064B	-48	FMT.0064	1	semi-formed	SRR11420180	PRJNA545312	-9	SRR14092178	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	pre	-2	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064BB	77	FMT.0064	126	semi-formed	SRR11116596	PRJNA607574	116		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	6	post
+FMT.0064C	-47	FMT.0064	2	formed	SRR11420178	PRJNA545312	-8	SRR14092177	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	pre	-2	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064CC	92	FMT.0064	141	semi-formed	SRR11116595	PRJNA607574	131		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	6	post
+FMT.0064D	-46	FMT.0064	3	semi-formed	SRR11420177	PRJNA545312	-7	SRR14092176	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	pre	-2	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064DD	93	FMT.0064	142	liquid	SRR11116594	PRJNA607574	132		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	6	post
+FMT.0064E	-45	FMT.0064	4	formed	SRR11420176	PRJNA545312	-6		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	pre	-1	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064EE	95	FMT.0064	144	semi-formed	SRR11116593	PRJNA607574	134		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	6	post
+FMT.0064F	-43	FMT.0064	6	liquid	SRR11420175	PRJNA545312	-4	SRR14092175	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	pre	-1	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064FF	133	FMT.0064	182	semi-formed	SRR11116592	PRJNA607574	172		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	6	post
+FMT.0064G	-40	FMT.0064	9	formed	SRR11420174	PRJNA545312	-1	SRR13697223	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	pre	-1	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064H	-38	FMT.0064	11	liquid	SRR11420173	PRJNA545312	1		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	peri	0	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064I	-37	FMT.0064	12	liquid	SRR11420172	PRJNA545312	2		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	peri	0	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064J	-36	FMT.0064	13	liquid	SRR11420171	PRJNA545312	3		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	peri	0	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064K	-35	FMT.0064	14	liquid	SRR11420170	PRJNA545312	4		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	peri	0	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064M	-34	FMT.0064	15	liquid	SRR11420167	PRJNA545312	5	SRR13697222	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	peri	0	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064O	-33	FMT.0064	16	liquid	SRR11420166	PRJNA545312	6		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	0	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064P	-32	FMT.0064	17	liquid	SRR11420165	PRJNA545312	7		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	0	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064Q	-31	FMT.0064	18	liquid	SRR11420164	PRJNA545312	8		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	1	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064R	-30	FMT.0064	19	liquid	SRR11420163	PRJNA545312	9		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	1	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064S	-28	FMT.0064	21	liquid	SRR11420162	PRJNA545312	11		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	1	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064T	-27	FMT.0064	22	liquid	SRR11420161	PRJNA545312	12		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	1	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064V	-18	FMT.0064	31	liquid	SRR11420160	PRJNA545312	21		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	2	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-3	pre
+FMT.0064X	0	FMT.0064	49	liquid	SRR11116591	PRJNA607574	39	SRR13697221	28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	5	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	-1	peri
+FMT.0064Y	7	FMT.0064	56	semi-formed	SRR11116590	PRJNA607574	46		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	0	post
+FMT.0064Z	21	FMT.0064	70	formed	SRR11116589	PRJNA607574	60		28	10	TCD	Multiple Myeloma	8ae11671e89fe36ab08a7b	T6	1	treatment	post	6	Treatment	38	39	FMT.0064A	FMT.0064V	FMT.0064X	2	post
+FMT.0076A	-50	FMT.0076	0	formed	SRR11420067	PRJNA545312	-6		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	pre	-1	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076B	-30	FMT.0076	20	semi-formed	SRR11420066	PRJNA545312	14		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	1	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076C	-29	FMT.0076	21	formed	SRR11420065	PRJNA545312	15		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	2	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076D	-28	FMT.0076	22	semi-formed	SRR11420064	PRJNA545312	16		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	2	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076E	-27	FMT.0076	23	semi-formed	SRR11420063	PRJNA545312	17		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	2	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076F	-26	FMT.0076	24	semi-formed	SRR11420062	PRJNA545312	18		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	2	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076G	-25	FMT.0076	25	semi-formed	SRR11420061	PRJNA545312	19		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	2	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076H	-24	FMT.0076	26	semi-formed	SRR11420060	PRJNA545312	20		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	2	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076I	-23	FMT.0076	27	semi-formed	SRR11420059	PRJNA545312	21		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	2	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076J	-20	FMT.0076	30	semi-formed	SRR11419463	PRJNA545312	24		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	3	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076K	-18	FMT.0076	32	semi-formed	SRR11419759	PRJNA545312	26		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	3	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076M	-15	FMT.0076	35	semi-formed	SRR11419758	PRJNA545312	29		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	4	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076N	-14	FMT.0076	36	formed	SRR11419757	PRJNA545312	30		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	4	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-3	pre
+FMT.0076O	-13	FMT.0076	37	semi-formed	SRR11419756	PRJNA545312	31		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	4	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-2	pre
+FMT.0076Q	0	FMT.0076	50	liquid	SRR10668372	PRJNA545312	44		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	6	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	-1	peri
+FMT.0076R	5	FMT.0076	55	semi-formed	SRR11116587	PRJNA607574	49		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	6	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	0	peri
+FMT.0076S	38	FMT.0076	88	liquid	SRR11116586	PRJNA607574	82		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	6	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	5	post
+FMT.0076T	39	FMT.0076	89	liquid	SRR11116585	PRJNA607574	83		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	6	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	5	post
+FMT.0076U	42	FMT.0076	92	semi-formed	SRR11116584	PRJNA607574	86		19	6	cord	Leukemia	0732f69a60924b8f0152f7	T8	1	treatment	post	6	Treatment	43	44	FMT.0076A	FMT.0076O	FMT.0076Q	5	post
+FMT.0080A	-38	FMT.0080	0	formed	SRR11419822	PRJNA545312	-5	SRR14143425	19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	pre	-1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080B	-37	FMT.0080	1	formed	SRR11419820	PRJNA545312	-4		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	pre	-1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080C	-31	FMT.0080	7	liquid	SRR11422260	PRJNA545312	2		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	peri	0	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080D	-30	FMT.0080	8	liquid	SRR11422259	PRJNA545312	3		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	peri	0	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080E	-29	FMT.0080	9	semi-formed	SRR11421673	PRJNA545312	4		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	peri	0	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080F	-28	FMT.0080	10	semi-formed	SRR11422205	PRJNA545312	5		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	peri	0	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080G	-25	FMT.0080	13	liquid	SRR11421871	PRJNA545312	8		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080H	-24	FMT.0080	14	formed	SRR11421816	PRJNA545312	9		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080I	-23	FMT.0080	15	liquid	SRR11421761	PRJNA545312	10		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080J	-22	FMT.0080	16	semi-formed	SRR11422408	PRJNA545312	11		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080K	-21	FMT.0080	17	semi-formed	SRR11422605	PRJNA545312	12		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080L	-19	FMT.0080	19	formed	SRR11422326	PRJNA545312	14		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	1	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080M	-18	FMT.0080	20	formed	SRR11422258	PRJNA545312	15		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	2	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080O	-15	FMT.0080	23	formed	SRR11422306	PRJNA545312	18		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	2	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-3	pre
+FMT.0080Q	0	FMT.0080	38	liquid	SRR10668371	PRJNA545312	33		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	4	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	-1	peri
+FMT.0080R	7	FMT.0080	45	semi-formed	SRR11116583	PRJNA607574	40		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	5	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	0	post
+FMT.0080S	59	FMT.0080	97	semi-formed	SRR11116582	PRJNA607574	92		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	6	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	6	post
+FMT.0080T	119	FMT.0080	157	semi-formed	SRR11116581	PRJNA607574	152		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	6	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	6	post
+FMT.0080U	287	FMT.0080	325	semi-formed	SRR11116580	PRJNA607574	320		19	5	PBSC_unmodified	Myelodysplastic Syndromes	c30ddb1f9cb76c2cc147f1	T9	1	treatment	post	6	Treatment	33	33	FMT.0080A	FMT.0080O	FMT.0080Q	6	post
+FMT.0091AA	-25	FMT.0091	26	liquid	SRR11422502	PRJNA545312	19		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091B	-51	FMT.0091	0	formed	SRR11422501	PRJNA545312	-7		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	pre	-2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091BB	-24	FMT.0091	27	liquid	SRR11422500	PRJNA545312	20		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091CC	-23	FMT.0091	28	liquid	SRR11422498	PRJNA545312	21		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091D	-49	FMT.0091	2	formed	SRR11422496	PRJNA545312	-5		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	pre	-1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091DD	-22	FMT.0091	29	liquid	SRR11422495	PRJNA545312	22		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	3	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091E	-48	FMT.0091	3	formed	SRR11422494	PRJNA545312	-4	SRR13697092	36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	pre	-1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091EE	-21	FMT.0091	30	liquid	SRR11422493	PRJNA545312	23		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	3	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091F	-45	FMT.0091	6	semi-formed	SRR11422492	PRJNA545312	-1		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	pre	-1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091FF	-20	FMT.0091	31	liquid	SRR11422491	PRJNA545312	24		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	3	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091G	-46	FMT.0091	5	formed	SRR11422490	PRJNA545312	-2		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	pre	-1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091GG	-18	FMT.0091	33	semi-formed	SRR11422489	PRJNA545312	26		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	3	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091H	-44	FMT.0091	7	liquid	SRR11422488	PRJNA545312	0		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	peri	-1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091HH	-17	FMT.0091	34	liquid	SRR11422487	PRJNA545312	27		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	3	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091II	-14	FMT.0091	37	liquid	SRR11422005	PRJNA545312	30		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	4	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091J	-42	FMT.0091	9	liquid	SRR11422004	PRJNA545312	2		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	peri	0	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091K	-41	FMT.0091	10	liquid	SRR11422003	PRJNA545312	3		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	peri	0	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091KK	0	FMT.0091	51	liquid	SRR11116579	PRJNA607574	44		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-1	peri
+FMT.0091LL	3	FMT.0091	54	semi-formed	SRR11116578	PRJNA607574	47		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	0	peri
+FMT.0091MM	21	FMT.0091	72	semi-formed	SRR11116576	PRJNA607574	65		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	2	post
+FMT.0091NN	47	FMT.0091	98	semi-formed	SRR11116575	PRJNA607574	91		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091O	-38	FMT.0091	13	liquid	SRR11422002	PRJNA545312	6		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	0	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091OO	62	FMT.0091	113	semi-formed	SRR11116574	PRJNA607574	106		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091PP	105	FMT.0091	156	semi-formed	SRR11116573	PRJNA607574	149		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091Q	-36	FMT.0091	15	liquid	SRR11422001	PRJNA545312	8		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091QQ	133	FMT.0091	184	semi-formed	SRR11116572	PRJNA607574	177		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091RR	160	FMT.0091	211		SRR11116571	PRJNA607574	204		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091S	-33	FMT.0091	18	liquid	SRR11422000	PRJNA545312	11		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091SS	217	FMT.0091	268	formed	SRR11116570	PRJNA607574	261		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091TT	252	FMT.0091	303	formed	SRR11116569	PRJNA607574	296		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091UU	279	FMT.0091	330	formed	SRR11116568	PRJNA607574	323		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	6	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	6	post
+FMT.0091V	-30	FMT.0091	21	liquid	SRR11421999	PRJNA545312	14		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	1	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091W	-29	FMT.0091	22	liquid	SRR11421998	PRJNA545312	15		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091X	-28	FMT.0091	23	liquid	SRR11421997	PRJNA545312	16		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091Y	-27	FMT.0091	24	semi-formed	SRR11421995	PRJNA545312	17		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0091Z	-26	FMT.0091	25	liquid	SRR11421994	PRJNA545312	18		36	7	BM_unmodified	Myelodysplastic Syndromes	a9ccb3575b661fc75b1e51	T12	1	treatment	post	2	Treatment	44	44	FMT.0091A	FMT.0091II	FMT.0091KK	-3	pre
+FMT.0092A	-38	FMT.0092	0	formed	SRR11421993	PRJNA545312	-9	SRR14092160	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	pre	-2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092AA	-8	FMT.0092	30	semi-formed	SRR11421992	PRJNA545312	21		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-2	pre
+FMT.0092B	-34	FMT.0092	4	formed	SRR11421991	PRJNA545312	-5		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	pre	-1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092C	-33	FMT.0092	5	formed	SRR11421990	PRJNA545312	-4		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	pre	-1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092CC	0	FMT.0092	38	liquid	SRR10668370	PRJNA545312	29		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	4	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-1	peri
+FMT.0092D	-32	FMT.0092	6	formed	SRR11421989	PRJNA545312	-3	SRR14092159	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	pre	-1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092DD	4	FMT.0092	42	semi-formed	SRR11116567	PRJNA607574	33		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	4	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	0	peri
+FMT.0092E	-31	FMT.0092	7	formed	SRR11421988	PRJNA545312	-2	SRR14143424	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	pre	-1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092EE	33	FMT.0092	71	formed	SRR11116565	PRJNA607574	62	SRR13697091	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	4	post
+FMT.0092F	-30	FMT.0092	8	formed	SRR11421987	PRJNA545312	-1		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	pre	-1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092FF	57	FMT.0092	95	semi-formed	SRR11116564	PRJNA607574	86	SRR14143423	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092G	-29	FMT.0092	9	formed	SRR11421986	PRJNA545312	0	SRR13697089	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	peri	-1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092GG	61	FMT.0092	99	semi-formed	SRR11116563	PRJNA607574	90		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092HH	96	FMT.0092	134	formed	SRR11116562	PRJNA607574	125	SRR14092158	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092I	-26	FMT.0092	12	semi-formed	SRR11421984	PRJNA545312	3	SRR13697088	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	peri	0	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092II	138	FMT.0092	176	semi-formed	SRR11116561	PRJNA607574	167	SRR13697087	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092J	-25	FMT.0092	13	semi-formed	SRR11421983	PRJNA545312	4	SRR13697086	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	peri	0	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092JJ	165	FMT.0092	203	semi-formed	SRR11116560	PRJNA607574	194	SRR13697085	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092K	-23	FMT.0092	15	semi-formed	SRR11421982	PRJNA545312	6		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	0	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092KK	196	FMT.0092	234	formed	SRR11116559	PRJNA607574	225		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092L	-22	FMT.0092	16	liquid	SRR11421981	PRJNA545312	7	SRR13697084	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	0	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092LL	237	FMT.0092	275	formed	SRR11116558	PRJNA607574	266	SRR14092157	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092M	-21	FMT.0092	17	liquid	SRR11421980	PRJNA545312	8	SRR14092156	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092MM	250	FMT.0092	288	formed	SRR11116557	PRJNA607574	279	SRR14092155	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092N	-20	FMT.0092	18	liquid	SRR11421979	PRJNA545312	9	SRR14092154	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092NN	292	FMT.0092	330	formed	SRR11116556	PRJNA607574	321		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092O	-19	FMT.0092	19	liquid	SRR11421978	PRJNA545312	10		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092OO	313	FMT.0092	351	formed	SRR11116554	PRJNA607574	342	SRR14092153	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	6	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	6	post
+FMT.0092P	-18	FMT.0092	20	semi-formed	SRR11421698	PRJNA545312	11	SRR14092311	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092Q	-17	FMT.0092	21	liquid	SRR11421697	PRJNA545312	12	SRR14092310	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092S	-16	FMT.0092	22	semi-formed	SRR11421694	PRJNA545312	13		38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092T	-15	FMT.0092	23	liquid	SRR11421693	PRJNA545312	14	SRR13697083	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	1	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092U	-14	FMT.0092	24	semi-formed	SRR11421692	PRJNA545312	15	SRR13697082	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-3	pre
+FMT.0092V	-13	FMT.0092	25	formed	SRR11421691	PRJNA545312	16	SRR14092309	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-2	pre
+FMT.0092W	-12	FMT.0092	26	liquid	SRR11421690	PRJNA545312	17	SRR14092308	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-2	pre
+FMT.0092X	-11	FMT.0092	27	liquid	SRR11421689	PRJNA545312	18	SRR13697081	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-2	pre
+FMT.0092Y	-10	FMT.0092	28	semi-formed	SRR11421688	PRJNA545312	19	SRR14092307	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-2	pre
+FMT.0092Z	-9	FMT.0092	29	formed	SRR11421687	PRJNA545312	20	SRR13697080	38	9	PBSC_unmodified	Leukemia	6fd7955698a9bde254481d	T11	1	treatment	post	2	Treatment	29	29	FMT.0092A	FMT.0092AA	FMT.0092CC	-2	pre
+FMT.0093A	-43	FMT.0093	0	formed	SRR11421686	PRJNA545312	-9	SRR14143422	32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	pre	-2	Control	34					-3	pre
+FMT.0093AA	33	FMT.0093	76	formed	SRR11421685	PRJNA545312	67		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					4	post
+FMT.0093B	-41	FMT.0093	2	formed	SRR11421683	PRJNA545312	-7		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	pre	-2	Control	34					-3	pre
+FMT.0093BB	56	FMT.0093	99	semi-formed	SRR11421682	PRJNA545312	90		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					6	post
+FMT.0093C	-39	FMT.0093	4	liquid	SRR11421681	PRJNA545312	-5		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	pre	-1	Control	34					-3	pre
+FMT.0093CC	57	FMT.0093	100	formed	SRR11421680	PRJNA545312	91		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					6	post
+FMT.0093D	-38	FMT.0093	5	liquid	SRR11421679	PRJNA545312	-4		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	pre	-1	Control	34					-3	pre
+FMT.0093DD	59	FMT.0093	102	semi-formed	SRR11421678	PRJNA545312	93		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					6	post
+FMT.0093E	-36	FMT.0093	7	semi-formed	SRR11421677	PRJNA545312	-2		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	pre	-1	Control	34					-3	pre
+FMT.0093EE	61	FMT.0093	104	semi-formed	SRR11421676	PRJNA545312	95		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					6	post
+FMT.0093F	-35	FMT.0093	8	semi-formed	SRR11421675	PRJNA545312	-1		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	pre	-1	Control	34					-3	pre
+FMT.0093FF	64	FMT.0093	107	semi-formed	SRR11421674	PRJNA545312	98		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					6	post
+FMT.0093G	-32	FMT.0093	11	semi-formed	SRR11421671	PRJNA545312	2		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	peri	0	Control	34					-3	pre
+FMT.0093GG	215	FMT.0093	258	semi-formed	SRR11422540	PRJNA545312	249		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					6	post
+FMT.0093H	-31	FMT.0093	12	semi-formed	SRR11422539	PRJNA545312	3		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	peri	0	Control	34					-3	pre
+FMT.0093HH	244	FMT.0093	287	formed	SRR11422538	PRJNA545312	278		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	6	Control	34					6	post
+FMT.0093I	-33	FMT.0093	10	semi-formed	SRR11422537	PRJNA545312	1		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	peri	0	Control	34					-3	pre
+FMT.0093J	-34	FMT.0093	9	liquid	SRR11422536	PRJNA545312	0		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	peri	-1	Control	34					-3	pre
+FMT.0093K	-30	FMT.0093	13	liquid	SRR11422535	PRJNA545312	4		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	peri	0	Control	34					-3	pre
+FMT.0093L	-29	FMT.0093	14	liquid	SRR11422534	PRJNA545312	5		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	peri	0	Control	34					-3	pre
+FMT.0093M	-28	FMT.0093	15	liquid	SRR11422533	PRJNA545312	6		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	0	Control	34					-3	pre
+FMT.0093P	-25	FMT.0093	18	liquid	SRR11422532	PRJNA545312	9		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	1	Control	34					-3	pre
+FMT.0093Q	-24	FMT.0093	19	liquid	SRR11422530	PRJNA545312	10		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	1	Control	34					-3	pre
+FMT.0093R	-23	FMT.0093	20	liquid	SRR11422529	PRJNA545312	11		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	1	Control	34					-3	pre
+FMT.0093S	-22	FMT.0093	21	liquid	SRR11422528	PRJNA545312	12		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	1	Control	34					-3	pre
+FMT.0093T	-20	FMT.0093	23	semi-formed	SRR11422527	PRJNA545312	14		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	1	Control	34					-3	pre
+FMT.0093U	-19	FMT.0093	24	semi-formed	SRR11422526	PRJNA545312	15		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	2	Control	34					-3	pre
+FMT.0093V	-18	FMT.0093	25	formed	SRR11422525	PRJNA545312	16		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	2	Control	34					-3	pre
+FMT.0093W	-16	FMT.0093	27	semi-formed	SRR11422524	PRJNA545312	18		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	2	Control	34					-3	pre
+FMT.0093X	-14	FMT.0093	29	formed	SRR11422523	PRJNA545312	20		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	2	Control	34					-3	pre
+FMT.0093Y	-13	FMT.0093	30	formed	SRR11422522	PRJNA545312	21		32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	2	Control	34					-2	pre
+FMT.0093Z	5	FMT.0093	48	semi-formed	SRR11422521	PRJNA545312	39	SRR13697078	32	9	TCD	Multiple Myeloma	398756dc8f5513128ea0c5	C7	1	control	post	5	Control	34					0	peri
+FMT.0094A	-41	FMT.0094	0	formed	SRR11422519	PRJNA545312	-13	SRR14092306	24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	pre	-2	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094B	-35	FMT.0094	6	formed	SRR11422518	PRJNA545312	-7		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	pre	-2	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094C	-33	FMT.0094	8	formed	SRR11422517	PRJNA545312	-5		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	pre	-1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094D	-30	FMT.0094	11	liquid	SRR11422516	PRJNA545312	-2	SRR14092305	24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	pre	-1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094E	-31	FMT.0094	10	formed	SRR11422515	PRJNA545312	-3	SRR13697077	24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	pre	-1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094F	-29	FMT.0094	12	liquid	SRR11422514	PRJNA545312	-1		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	pre	-1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094G	-28	FMT.0094	13	liquid	SRR11422513	PRJNA545312	0		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	peri	-1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094H	-27	FMT.0094	14	liquid	SRR11422257	PRJNA545312	1		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	peri	0	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094I	-26	FMT.0094	15	liquid	SRR11422256	PRJNA545312	2		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	peri	0	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094J	-25	FMT.0094	16	liquid	SRR11422255	PRJNA545312	3		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	peri	0	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094K	-23	FMT.0094	18	liquid	SRR11422253	PRJNA545312	5		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	peri	0	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094L	-22	FMT.0094	19	semi-formed	SRR11422252	PRJNA545312	6		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	0	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094M	-21	FMT.0094	20	semi-formed	SRR11422251	PRJNA545312	7		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	0	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094N	-20	FMT.0094	21	liquid	SRR11422250	PRJNA545312	8		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094O	-19	FMT.0094	22	liquid	SRR11422249	PRJNA545312	9		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094P	-16	FMT.0094	25	semi-formed	SRR11422248	PRJNA545312	12		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094Q	-17	FMT.0094	24	liquid	SRR11422247	PRJNA545312	11		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094R	-15	FMT.0094	26	semi-formed	SRR11422246	PRJNA545312	13	SRR14092304	24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	1	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-3	pre
+FMT.0094T	0	FMT.0094	41	liquid	SRR11116553	PRJNA607574	28		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	3	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	-1	peri
+FMT.0094U	7	FMT.0094	48	formed	SRR11116552	PRJNA607574	35	SRR14092303	24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	4	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	0	post
+FMT.0094V	31	FMT.0094	72	semi-formed	SRR11116551	PRJNA607574	59		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	6	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	4	post
+FMT.0094W	70	FMT.0094	111	formed	SRR11116550	PRJNA607574	98		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	6	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	6	post
+FMT.0094X	98	FMT.0094	139	formed	SRR11116549	PRJNA607574	126		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	6	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	6	post
+FMT.0094Y	180	FMT.0094	221	formed	SRR11116548	PRJNA607574	208		24	13	TCD	Leukemia	ece90549698de0564a9f97	T10	1	treatment	post	6	Treatment	28	28	FMT.0094A	FMT.0094R	FMT.0094T	6	post
+FMT.0099A	-48	FMT.0099	0	formed	SRR11422435	PRJNA545312	-13	SRR14092298	18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	pre	-2	Control	35					-3	pre
+FMT.0099B	-42	FMT.0099	6	formed	SRR11422434	PRJNA545312	-7		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	pre	-2	Control	35					-3	pre
+FMT.0099C	-38	FMT.0099	10	semi-formed	SRR11422433	PRJNA545312	-3		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	pre	-1	Control	35					-3	pre
+FMT.0099D	-37	FMT.0099	11	liquid	SRR11422432	PRJNA545312	-2		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	pre	-1	Control	35					-3	pre
+FMT.0099E	-35	FMT.0099	13	liquid	SRR11422431	PRJNA545312	0		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	peri	-1	Control	35					-3	pre
+FMT.0099F	-34	FMT.0099	14	semi-formed	SRR11422430	PRJNA545312	1		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	peri	0	Control	35					-3	pre
+FMT.0099G	-33	FMT.0099	15	liquid	SRR11422429	PRJNA545312	2		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	peri	0	Control	35					-3	pre
+FMT.0099H	-30	FMT.0099	18	liquid	SRR11422229	PRJNA545312	5		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	peri	0	Control	35					-3	pre
+FMT.0099I	-28	FMT.0099	20	liquid	SRR11422228	PRJNA545312	7		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	0	Control	35					-3	pre
+FMT.0099J	-27	FMT.0099	21	liquid	SRR11422226	PRJNA545312	8		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	1	Control	35					-3	pre
+FMT.0099K	-24	FMT.0099	24	liquid	SRR11422225	PRJNA545312	11		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	1	Control	35					-3	pre
+FMT.0099L	-23	FMT.0099	25	liquid	SRR11422224	PRJNA545312	12		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	1	Control	35					-3	pre
+FMT.0099M	-22	FMT.0099	26	semi-formed	SRR11422223	PRJNA545312	13		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	1	Control	35					-3	pre
+FMT.0099N	-21	FMT.0099	27	semi-formed	SRR11422222	PRJNA545312	14		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	1	Control	35					-3	pre
+FMT.0099O	14	FMT.0099	62	formed	SRR11422221	PRJNA545312	49	SRR14092297	18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	6	Control	35					1	post
+FMT.0099P	43	FMT.0099	91	formed	SRR11422220	PRJNA545312	78		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	6	Control	35					6	post
+FMT.0099Q	280	FMT.0099	328	formed	SRR11422219	PRJNA545312	315		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	6	Control	35					6	post
+FMT.0099R	322	FMT.0099	370	semi-formed	SRR11422218	PRJNA545312	357		18	13	TCD	Leukemia	3bf14dbd427c9a2f06180e	C8	1	control	post	6	Control	35					6	post
+FMT.0103A	-60	FMT.0103	0	formed	SRR11422262	PRJNA545312	-13	SRR14092296	23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	pre	-2	Control	47					-3	pre
+FMT.0103B	-53	FMT.0103	7	formed	SRR11422261	PRJNA545312	-6		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	pre	-1	Control	47					-3	pre
+FMT.0103C	-51	FMT.0103	9	formed	SRR11422484	PRJNA545312	-4		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	pre	-1	Control	47					-3	pre
+FMT.0103D	-50	FMT.0103	10	semi-formed	SRR11422483	PRJNA545312	-3		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	pre	-1	Control	47					-3	pre
+FMT.0103E	-49	FMT.0103	11	semi-formed	SRR11422481	PRJNA545312	-2		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	pre	-1	Control	47					-3	pre
+FMT.0103F	-48	FMT.0103	12	semi-formed	SRR11422480	PRJNA545312	-1		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	pre	-1	Control	47					-3	pre
+FMT.0103G	-47	FMT.0103	13	semi-formed	SRR11422479	PRJNA545312	0		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	peri	-1	Control	47					-3	pre
+FMT.0103H	-46	FMT.0103	14	semi-formed	SRR11422478	PRJNA545312	1		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	peri	0	Control	47					-3	pre
+FMT.0103I	-42	FMT.0103	18	semi-formed	SRR11422477	PRJNA545312	5		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	peri	0	Control	47					-3	pre
+FMT.0103J	-41	FMT.0103	19	semi-formed	SRR11422476	PRJNA545312	6		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	0	Control	47					-3	pre
+FMT.0103K	-40	FMT.0103	20	liquid	SRR11422475	PRJNA545312	7		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	0	Control	47					-3	pre
+FMT.0103M	-36	FMT.0103	24	semi-formed	SRR11422474	PRJNA545312	11		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	1	Control	47					-3	pre
+FMT.0103N	-35	FMT.0103	25	semi-formed	SRR11422473	PRJNA545312	12		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	1	Control	47					-3	pre
+FMT.0103O	-34	FMT.0103	26	liquid	SRR11422472	PRJNA545312	13		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	1	Control	47					-3	pre
+FMT.0103R	-28	FMT.0103	32	semi-formed	SRR11422470	PRJNA545312	19		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	2	Control	47					-3	pre
+FMT.0103S	-27	FMT.0103	33	semi-formed	SRR11422469	PRJNA545312	20		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	2	Control	47					-3	pre
+FMT.0103T	-26	FMT.0103	34	semi-formed	SRR11422468	PRJNA545312	21		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	2	Control	47					-3	pre
+FMT.0103U	-25	FMT.0103	35	liquid	SRR11422467	PRJNA545312	22		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	3	Control	47					-3	pre
+FMT.0103V	-18	FMT.0103	42	semi-formed	SRR11422466	PRJNA545312	29		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	4	Control	47					-3	pre
+FMT.0103W	-17	FMT.0103	43	semi-formed	SRR11422465	PRJNA545312	30		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	4	Control	47					-3	pre
+FMT.0103X	-7	FMT.0103	53	formed	SRR11422464	PRJNA545312	40		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	5	Control	47					-2	pre
+FMT.0103Y	6	FMT.0103	66	semi-formed	SRR11422463	PRJNA545312	53	SRR14092295	23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	6	Control	47					0	post
+FMT.0103Z	59	FMT.0103	119	semi-formed	SRR11422462	PRJNA545312	106		23	13	BM_unmodified	Myelodysplastic Syndromes	d90e1b7f7d96d7133d7172	C10	1	control	post	6	Control	47					6	post
+FMT.0106A	-35	FMT.0106	0	formed	SRR11421889	PRJNA545312	-15	SRR14092294	29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	pre	-3	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106AA	60	FMT.0106	95	liquid	SRR11116503	PRJNA607574	80		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106B	-25	FMT.0106	10	formed	SRR11421888	PRJNA545312	-5		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	pre	-1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106BB	61	FMT.0106	96	liquid	SRR11116502	PRJNA607574	81		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106C	-24	FMT.0106	11	formed	SRR11421887	PRJNA545312	-4		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	pre	-1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106CC	64	FMT.0106	99	semi-formed	SRR11116501	PRJNA607574	84		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106D	-23	FMT.0106	12	formed	SRR11421886	PRJNA545312	-3		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	pre	-1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106DD	66	FMT.0106	101	semi-formed	SRR11116500	PRJNA607574	86		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106E	-22	FMT.0106	13	formed	SRR11421885	PRJNA545312	-2		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	pre	-1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106EE	67	FMT.0106	102	liquid	SRR11116499	PRJNA607574	87		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106F	-21	FMT.0106	14	semi-formed	SRR11421884	PRJNA545312	-1		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	pre	-1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106G	-20	FMT.0106	15	liquid	SRR11421883	PRJNA545312	0		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	peri	-1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106GG	123	FMT.0106	158	liquid	SRR11116498	PRJNA607574	143		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106H	-18	FMT.0106	17	liquid	SRR11421881	PRJNA545312	2		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	peri	0	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-3	pre
+FMT.0106HH	155	FMT.0106	190	liquid	SRR11116497	PRJNA607574	175		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106I	-13	FMT.0106	22	liquid	SRR11421880	PRJNA545312	7		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	0	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-2	pre
+FMT.0106K	-10	FMT.0106	25	liquid	SRR11421879	PRJNA545312	10		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-2	pre
+FMT.0106L	-9	FMT.0106	26	liquid	SRR11421878	PRJNA545312	11		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-2	pre
+FMT.0106M	-7	FMT.0106	28	liquid	SRR11421877	PRJNA545312	13		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	1	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-2	pre
+FMT.0106N	-3	FMT.0106	32	liquid	SRR11421876	PRJNA545312	17		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	2	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-1	pre
+FMT.0106R	0	FMT.0106	35	liquid	SRR10668367	PRJNA545312	20		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	2	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	-1	peri
+FMT.0106S	5	FMT.0106	40	liquid	SRR11116496	PRJNA607574	25	SRR14092293	29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	3	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	0	peri
+FMT.0106T	27	FMT.0106	62	semi-formed	SRR11116495	PRJNA607574	47		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	3	post
+FMT.0106U	40	FMT.0106	75	semi-formed	SRR10668366	PRJNA545312	60		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	5	post
+FMT.0106V	41	FMT.0106	76	liquid	SRR11116492	PRJNA607574	61		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	5	post
+FMT.0106W	46	FMT.0106	81	liquid	SRR11116491	PRJNA607574	66		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106X	47	FMT.0106	82	liquid	SRR11116490	PRJNA607574	67		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106Y	48	FMT.0106	83	semi-formed	SRR11116489	PRJNA607574	68		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0106Z	49	FMT.0106	84	liquid	SRR11116488	PRJNA607574	69		29	15	PBSC_unmodified	Non-Hodgkin's Lymphoma	852d3a14316666c0bacfbb	T13	0	treatment	post	6	Treatment	20	20	FMT.0106A	FMT.0106N	FMT.0106R	6	post
+FMT.0107A	-44	FMT.0107	0	formed	SRR11421875	PRJNA545312	-20	SRR14092292	23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	pre	-3	Control	24					-3	pre
+FMT.0107B	-25	FMT.0107	19	liquid	SRR11421874	PRJNA545312	-1		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	pre	-1	Control	24					-3	pre
+FMT.0107C	-24	FMT.0107	20	formed	SRR11421873	PRJNA545312	0		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	peri	-1	Control	24					-3	pre
+FMT.0107D	-23	FMT.0107	21	semi-formed	SRR11421872	PRJNA545312	1		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	peri	0	Control	24					-3	pre
+FMT.0107E	-22	FMT.0107	22	semi-formed	SRR11421869	PRJNA545312	2		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	peri	0	Control	24					-3	pre
+FMT.0107F	-19	FMT.0107	25	liquid	SRR11421868	PRJNA545312	5		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	peri	0	Control	24					-3	pre
+FMT.0107G	-15	FMT.0107	29	semi-formed	SRR11421867	PRJNA545312	9		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	1	Control	24					-3	pre
+FMT.0107H	-14	FMT.0107	30	liquid	SRR11422145	PRJNA545312	10		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	1	Control	24					-3	pre
+FMT.0107I	-12	FMT.0107	32	liquid	SRR11422144	PRJNA545312	12		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	1	Control	24					-2	pre
+FMT.0107J	-11	FMT.0107	33	liquid	SRR11422143	PRJNA545312	13		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	1	Control	24					-2	pre
+FMT.0107K	-9	FMT.0107	35	semi-formed	SRR11422142	PRJNA545312	15		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	2	Control	24					-2	pre
+FMT.0107L	-8	FMT.0107	36	semi-formed	SRR11422141	PRJNA545312	16		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	2	Control	24					-2	pre
+FMT.0107M	-7	FMT.0107	37	semi-formed	SRR11422140	PRJNA545312	17		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	2	Control	24					-2	pre
+FMT.0107N	-5	FMT.0107	39	semi-formed	SRR11422139	PRJNA545312	19		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	2	Control	24					-1	pre
+FMT.0107O	-4	FMT.0107	40	formed	SRR11422137	PRJNA545312	20		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	2	Control	24					-1	pre
+FMT.0107P	-3	FMT.0107	41	semi-formed	SRR11422136	PRJNA545312	21		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	2	Control	24					-1	pre
+FMT.0107Q	-1	FMT.0107	43	formed	SRR11422135	PRJNA545312	23		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	3	Control	24					-1	pre
+FMT.0107R	4	FMT.0107	48	formed	SRR11422134	PRJNA545312	28		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	3	Control	24					0	peri
+FMT.0107S	11	FMT.0107	55	formed	SRR11422133	PRJNA545312	35		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	4	Control	24					1	post
+FMT.0107T	44	FMT.0107	88	semi-formed	SRR11422132	PRJNA545312	68		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	6	Control	24					6	post
+FMT.0107U	93	FMT.0107	137	formed	SRR11422131	PRJNA545312	117		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	6	Control	24					6	post
+FMT.0107V	135	FMT.0107	179		SRR11422130	PRJNA545312	159		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	6	Control	24					6	post
+FMT.0107W	191	FMT.0107	235	formed	SRR11422129	PRJNA545312	215		23	20	PBSC_unmodified	Myelodysplastic Syndromes	03ac27da97dc05981f5766	C11	1	control	post	6	Control	24					6	post
+FMT.0111A	-31	FMT.0111	0	formed	SRR11422660	PRJNA545312	-9		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	pre	-2	Control	22					-3	pre
+FMT.0111AA	248	FMT.0111	279	formed	SRR11422659	PRJNA545312	270		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					6	post
+FMT.0111B	-30	FMT.0111	1	formed	SRR11422658	PRJNA545312	-8	SRR13697131	23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	pre	-2	Control	22					-3	pre
+FMT.0111BB	339	FMT.0111	370	formed	SRR11422657	PRJNA545312	361		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					6	post
+FMT.0111C	-29	FMT.0111	2	formed	SRR11422656	PRJNA545312	-7	SRR14092291	23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	pre	-2	Control	22					-3	pre
+FMT.0111D	-28	FMT.0111	3	formed	SRR11422655	PRJNA545312	-6	SRR13697130	23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	pre	-1	Control	22					-3	pre
+FMT.0111E	-25	FMT.0111	6	formed	SRR11422654	PRJNA545312	-3	SRR14092289	23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	pre	-1	Control	22					-3	pre
+FMT.0111F	-24	FMT.0111	7	formed	SRR11422653	PRJNA545312	-2	SRR14092288	23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	pre	-1	Control	22					-3	pre
+FMT.0111G	-23	FMT.0111	8	liquid	SRR11421837	PRJNA545312	-1	SRR13697129	23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	pre	-1	Control	22					-3	pre
+FMT.0111I	-19	FMT.0111	12	liquid	SRR11421836	PRJNA545312	3		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	peri	0	Control	22					-3	pre
+FMT.0111J	-18	FMT.0111	13	semi-formed	SRR11421835	PRJNA545312	4		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	peri	0	Control	22					-3	pre
+FMT.0111L	-16	FMT.0111	15	liquid	SRR11421834	PRJNA545312	6		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	0	Control	22					-3	pre
+FMT.0111M	-15	FMT.0111	16	liquid	SRR11421833	PRJNA545312	7		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	0	Control	22					-3	pre
+FMT.0111N	-14	FMT.0111	17	liquid	SRR11421832	PRJNA545312	8		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	1	Control	22					-3	pre
+FMT.0111P	-11	FMT.0111	20	semi-formed	SRR11421830	PRJNA545312	11		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	1	Control	22					-2	pre
+FMT.0111S	-9	FMT.0111	22	liquid	SRR11421828	PRJNA545312	13		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	1	Control	22					-2	pre
+FMT.0111T	4	FMT.0111	35	formed	SRR11421826	PRJNA545312	26		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	3	Control	22					0	peri
+FMT.0111U	38	FMT.0111	69	formed	SRR11421825	PRJNA545312	60		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					5	post
+FMT.0111V	73	FMT.0111	104	formed	SRR11421824	PRJNA545312	95		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					6	post
+FMT.0111W	122	FMT.0111	153	formed	SRR11421823	PRJNA545312	144		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					6	post
+FMT.0111X	152	FMT.0111	183	formed	SRR11421822	PRJNA545312	174		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					6	post
+FMT.0111Y	192	FMT.0111	223	formed	SRR11421821	PRJNA545312	214		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					6	post
+FMT.0111Z	220	FMT.0111	251	formed	SRR11421820	PRJNA545312	242		23	9	TCD	Leukemia	90dd721182743d0a7aa9a9	C9	1	control	post	6	Control	22					6	post
+FMT.0120A	-40	FMT.0120	0	semi-formed	SRR11422087	PRJNA545312	-6	SRR14092283	23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	pre	-1	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120B	-32	FMT.0120	8	formed	SRR11422086	PRJNA545312	2		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	peri	0	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120C	-31	FMT.0120	9	semi-formed	SRR11422085	PRJNA545312	3		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	peri	0	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120D	-28	FMT.0120	12	formed	SRR11422083	PRJNA545312	6		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	0	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120E	-26	FMT.0120	14	semi-formed	SRR11422082	PRJNA545312	8		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	1	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120F	-25	FMT.0120	15	semi-formed	SRR11422081	PRJNA545312	9		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	1	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120G	-22	FMT.0120	18	semi-formed	SRR11422080	PRJNA545312	12		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	1	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120H	-21	FMT.0120	19	semi-formed	SRR11422079	PRJNA545312	13		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	1	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120I	-20	FMT.0120	20	semi-formed	SRR11422078	PRJNA545312	14		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	1	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120J	-14	FMT.0120	26	liquid	SRR11422077	PRJNA545312	20		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	2	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-3	pre
+FMT.0120K	-13	FMT.0120	27	liquid	SRR11422076	PRJNA545312	21		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	2	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-2	pre
+FMT.0120L	-12	FMT.0120	28	formed	SRR11422075	PRJNA545312	22		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	3	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-2	pre
+FMT.0120N	0	FMT.0120	40	liquid	SRR10668364	PRJNA545312	34		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	4	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	-1	peri
+FMT.0120O	2	FMT.0120	42	semi-formed	SRR11116463	PRJNA607574	36	SRR14092282	23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	5	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	0	peri
+FMT.0120P	49	FMT.0120	89	formed	SRR11116462	PRJNA607574	83		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120Q	85	FMT.0120	125	formed	SRR11116461	PRJNA607574	119		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120R	113	FMT.0120	153	formed	SRR11116459	PRJNA607574	147		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120S	143	FMT.0120	183	formed	SRR11116458	PRJNA607574	177		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120T	169	FMT.0120	209	formed	SRR11116457	PRJNA607574	203		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120U	225	FMT.0120	265	formed	SRR11116456	PRJNA607574	259		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120V	252	FMT.0120	292	semi-formed	SRR11116455	PRJNA607574	286		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120W	308	FMT.0120	348	formed	SRR11116454	PRJNA607574	342		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
+FMT.0120X	353	FMT.0120	393	formed	SRR11116452	PRJNA607574	387		23	6	BM_unmodified	Leukemia	1ee58943a428b5dccad65a	T14	1	treatment	post	6	Treatment	34	34	FMT.0120A	FMT.0120L	FMT.0120N	6	post
